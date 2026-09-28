@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="260" viewBox="0 0 840 260" role="img" aria-labelledby="t">
+  <title id="t">kindsusu — HR · AI · OB · Psychology. Claude + Codex. 필요하면, 만든다.</title>
+  <defs>
+    <linearGradient id="motto" x1="0" x2="1">
+      <stop offset="0" stop-color="#F78166"/>
+      <stop offset="1" stop-color="#D2A8FF"/>
+    </linearGradient>
+  </defs>
+  <style>
+    text { font-family: -apple-system, "Segoe UI", "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans KR", sans-serif; }
+    .mono { font-family: ui-monospace, "SFMono-Regular", Consolas, "D2Coding", monospace; font-size: 14px; fill: #7d8590; }
+    .big { font-size: 44px; font-weight: 700; fill: #e6edf3; }
+    .sub { font-size: 20px; fill: #9da7b3; }
+    .chip text { font-size: 22px; font-weight: 600; text-anchor: middle; }
+
+    .s1, .s2, .s3, .s4, .r { opacity: 0; animation-duration: 16s; animation-iteration-count: infinite; }
+    .s1 { animation-name: s1; } .s2 { animation-name: s2; }
+    .s3 { animation-name: s3; } .s4 { animation-name: s4; }
+    @keyframes s1 { 0%{opacity:0;transform:translateY(8px)} 2%{opacity:1;transform:none} 22%{opacity:1} 25%,100%{opacity:0} }
+    @keyframes s2 { 0%,25%{opacity:0;transform:translateY(8px)} 27%{opacity:1;transform:none} 47%{opacity:1} 50%,100%{opacity:0} }
+    @keyframes s3 { 0%,50%{opacity:0;transform:translateY(8px)} 52%{opacity:1;transform:none} 72%{opacity:1} 75%,100%{opacity:0} }
+    @keyframes s4 { 0%,75%{opacity:0;transform:translateY(8px)} 77%{opacity:1;transform:none} 97%{opacity:1} 100%{opacity:0} }
+
+    /* staggered reveals inside a scene */
+    @keyframes r11 { 0%,10%{opacity:0;transform:translateY(6px)} 12%,100%{opacity:1;transform:none} }
+    @keyframes r28 { 0%,27%{opacity:0;transform:translateY(10px)} 29%,100%{opacity:1;transform:none} }
+    @keyframes r30 { 0%,29%{opacity:0;transform:translateY(10px)} 31%,100%{opacity:1;transform:none} }
+    @keyframes r32 { 0%,31%{opacity:0;transform:translateY(10px)} 33%,100%{opacity:1;transform:none} }
+    @keyframes r34 { 0%,33%{opacity:0;transform:translateY(10px)} 35%,100%{opacity:1;transform:none} }
+    @keyframes r38 { 0%,37%{opacity:0;transform:translateY(6px)} 39%,100%{opacity:1;transform:none} }
+    @keyframes r53 { 0%,52%{opacity:0;transform:translateY(6px)} 54%,100%{opacity:1;transform:none} }
+    @keyframes r56 { 0%,55%{opacity:0;transform:translateY(6px)} 57%,100%{opacity:1;transform:none} }
+    @keyframes r60 { 0%,59%{opacity:0;transform:translateY(6px)} 61%,100%{opacity:1;transform:none} }
+    @keyframes r81 { 0%,80%{opacity:0;transform:translateY(6px)} 82%,100%{opacity:1;transform:none} }
+
+    /* typewriter: a background-colored cover slides right in steps */
+    .cover { animation: type 16s infinite; }
+    @keyframes type {
+      0% { transform: translateX(0); }
+      1% { transform: translateX(0); animation-timing-function: steps(16, end); }
+      9%,100% { transform: translateX(338px); }
+    }
+    .caret { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+
+    .bar { animation: bar 16s linear infinite; transform-box: fill-box; transform-origin: left; }
+    @keyframes bar { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; }
+      .s4, .s4 .r { opacity: 1; }
+      .cover { display: none; }
+    }
+  </style>
+
+  <rect width="840" height="260" rx="14" fill="#0d1117"/>
+  <rect x="0.5" y="0.5" width="839" height="259" rx="14" fill="none" stroke="#30363d"/>
+  <circle cx="24" cy="20" r="6" fill="#ff5f57"/>
+  <circle cx="44" cy="20" r="6" fill="#febc2e"/>
+  <circle cx="64" cy="20" r="6" fill="#28c840"/>
+  <text x="420" y="25" class="mono" text-anchor="middle" style="font-size:13px">~/kindsusu</text>
+  <line x1="0" y1="40" x2="840" y2="40" stroke="#21262d"/>
+
+  <!-- 1. who -->
+  <g class="s1">
+    <text x="48" y="96" class="mono">$ whoami</text>
+    <text x="48" y="152" class="big">Hi, I'm kindsusu</text>
+    <g class="cover">
+      <rect x="46" y="108" width="420" height="58" fill="#0d1117"/>
+      <rect class="caret" x="46" y="112" width="4" height="48" fill="#F78166"/>
+    </g>
+    <text x="48" y="200" class="sub r" style="animation-name:r11">HR 하는 사람이 바이브코딩에 빠졌습니다</text>
+  </g>
+
+  <!-- 2. interests -->
+  <g class="s2">
+    <text x="48" y="96" class="mono">$ cat interests.txt</text>
+    <g class="chip r" style="animation-name:r28">
+      <rect x="48" y="118" width="96" height="48" rx="24" fill="#F78166" fill-opacity=".14" stroke="#F78166"/>
+      <text x="96" y="150" fill="#F78166">HR</text>
+    </g>
+    <g class="chip r" style="animation-name:r30">
+      <rect x="158" y="118" width="96" height="48" rx="24" fill="#D2A8FF" fill-opacity=".14" stroke="#D2A8FF"/>
+      <text x="206" y="150" fill="#D2A8FF">AI</text>
+    </g>
+    <g class="chip r" style="animation-name:r32">
+      <rect x="268" y="118" width="96" height="48" rx="24" fill="#7EE787" fill-opacity=".14" stroke="#7EE787"/>
+      <text x="316" y="150" fill="#7EE787">OB</text>
+    </g>
+    <g class="chip r" style="animation-name:r34">
+      <rect x="378" y="118" width="170" height="48" rx="24" fill="#79C0FF" fill-opacity=".14" stroke="#79C0FF"/>
+      <text x="463" y="150" fill="#79C0FF">Psychology</text>
+    </g>
+    <text x="48" y="210" class="sub r" style="animation-name:r38">사람과 조직, 마음, 그리고 AI</text>
+  </g>
+
+  <!-- 3. tools -->
+  <g class="s3">
+    <text x="48" y="96" class="mono">$ ls ~/pair-programmers</text>
+    <text x="48" y="152" class="big r" style="fill:#D97757;animation-name:r53">Claude</text>
+    <g class="r" style="animation-name:r56">
+      <text x="206" y="152" class="big" style="fill:#7d8590">+</text>
+      <text x="248" y="152" class="big">Codex</text>
+    </g>
+    <text x="48" y="200" class="sub r" style="animation-name:r60">Claude가 주력, Codex와 함께 매일 바이브코딩</text>
+  </g>
+
+  <!-- 4. motto -->
+  <g class="s4">
+    <text x="48" y="96" class="mono">$ ./motto.sh</text>
+    <text x="48" y="152" class="big" fill="url(#motto)" style="fill:url(#motto)">필요하면, 만든다.</text>
+    <text x="48" y="200" class="sub r" style="animation-name:r81;font-style:italic">If I need it, I build it.</text>
+  </g>
+
+  <rect class="bar" x="14" y="255" width="812" height="3" fill="#F78166" fill-opacity=".6"/>
+</svg>
